@@ -11,6 +11,7 @@ function setup() {
   paddle.addImage(paddle1)
   
   ball.velocityX = 6;
+  ball.velocityY = 6;
  
 
 }
@@ -25,7 +26,7 @@ paddle.bounceOff(edges);
   
 if (ball.bounceOff(paddle) || ball.bounceOff(edges)) 
 { 
-randomVelocity();
+
 }
   
   
